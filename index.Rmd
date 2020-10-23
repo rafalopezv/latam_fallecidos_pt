@@ -28,7 +28,7 @@ Sys.setlocale(locale = "es_ES.UTF-8")
 millon_fallecidos
 ```
 <small><small><small>
-Own elaboration based on data from [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [World Bank](https://datos.bancomundial.org/indicador/SP.POP.TOTL) and [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+Elaboração própria com base em dados da [Universidade Jhons Hopkins](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) e [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
 </small></small></small>
 <br>
 <br>
@@ -43,7 +43,7 @@ Own elaboration based on data from [Jhons Hopkins University](https://github.com
 incidencia_fallecidos
 ```
 <small><small><small>
-Own elaboration based on data from [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [World Bank](https://datos.bancomundial.org/indicador/SP.POP.TOTL) and [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+Elaboração própria com base em dados da [Universidade Jhons Hopkins](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) e [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
 </small></small></small>
 <br>
 <br>
@@ -57,5 +57,5 @@ Own elaboration based on data from [Jhons Hopkins University](https://github.com
 rio_fallecidos
 ```
 <small><small><small>
-Own elaboration based on data from [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [World Bank](https://datos.bancomundial.org/indicador/SP.POP.TOTL) and [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+Elaboração própria com base em dados da [Universidade Jhons Hopkins](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) e [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
 </small></small></small>
