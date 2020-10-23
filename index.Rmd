@@ -1,0 +1,61 @@
+---
+title: "CASOS DE ÓBITOS POR PAÍS"
+output: 
+  html_document: 
+    css: style.css
+lang: es-CO
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(gt)
+library(reactable)
+library(repmis)
+library(dplyr)
+library(knitr)
+
+source("code/graficos_latam.R")
+
+Sys.setlocale(locale = "es_ES.UTF-8")
+```
+
+<h2 <span style = "color: #e61b72">
+    <b>Casos de óbitos</b></span> <span style = "color: #000000">por país e por milhão de habitantes</span>  
+</h2>
+
+<h4>Gráfico interativo: Passe o mouse sobre o gráfico e selecione, no lado direito, os países que deseja comparar.</h4>
+```{r, include=T, echo = F}
+millon_fallecidos
+```
+<small><small><small>
+Own elaboration based on data from [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [World Bank](https://datos.bancomundial.org/indicador/SP.POP.TOTL) and [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+</small></small></small>
+<br>
+<br>
+
+<h2 style = color: #000000;>
+    Novos casos de <span style = "color: #e61b72"><b>óbitos</b></span> por dia desde o primeiro óbito em cada país 
+</h2>
+
+<center><h4>Gráfico interativo: Passe o mouse sobre o gráfico e selecione, na parte inferior, os países que deseja comparar. A largura de cada cor determina a proporção desse país sobre o total</h4></center>
+
+```{r, include=T, echo = F}
+incidencia_fallecidos
+```
+<small><small><small>
+Own elaboration based on data from [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [World Bank](https://datos.bancomundial.org/indicador/SP.POP.TOTL) and [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+</small></small></small>
+<br>
+<br>
+
+<h2 <span style = "color: #e61b72">
+    <b>Óbitos</b></span> <span style = "color: #000000">acumulados por dia desde o primeiro óbito em cada país </span> 
+</h2>
+
+<center><h4>Gráfico interativo: Passe o mouse sobre o gráfico e selecione, na parte inferior, os países que deseja comparar. A largura de cada cor determina a proporção desse país sobre o total</h4></center>
+```{r, include=T, echo = F}
+rio_fallecidos
+```
+<small><small><small>
+Own elaboration based on data from [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [World Bank](https://datos.bancomundial.org/indicador/SP.POP.TOTL) and [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
+</small></small></small>

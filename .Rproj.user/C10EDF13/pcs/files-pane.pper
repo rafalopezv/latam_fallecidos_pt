@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/latam_fallecidos_pt",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
